@@ -1,0 +1,37 @@
+<style>
+    .testimonial-section { display: flex; flex-direction: column; overflow: hidden; position: relative; min-height: 399px; width: 100%; justify-content: center; }
+    .testimonial-background { position: absolute; inset: 0; height: 100%; width: 100%; object-fit: cover; object-position: center; }
+    .testimonial-overlay { position: relative; background-color: rgba(0, 0, 0, 0.7); display: flex; width: 100%; align-items: center; justify-content: center; padding: 80px 60px; }
+    .testimonial-content { display: flex; margin-top: 4px; width: 537px; max-width: 100%; flex-direction: column; align-items: center; }
+    .testimonial-name { color: #fff; text-align: center; letter-spacing: 2px; font: 100 20px/110% Raleway, sans-serif; }
+    .testimonial-position { color: #fff; text-align: center; letter-spacing: 1.4px; margin-top: 14px; font: 100 14px/143% Roboto, sans-serif; }
+    .testimonial-text { color: #fff; text-align: center; letter-spacing: 0.7px; align-self: stretch; margin-top: 22px; font: italic 100 14px/31px Roboto, -apple-system, Roboto, Helvetica, sans-serif; }
+    .testimonial-rating { display: flex; margin-top: 27px; gap: 10px; }
+    .rating-star { aspect-ratio: 1; object-fit: auto; object-position: center; width: 70px; }
+    @media (max-width: 991px) {
+        .testimonial-section { max-width: 100%; }
+        .testimonial-overlay { max-width: 100%; padding: 0 20px; }
+        .testimonial-content { max-width: 100%; }
+        .testimonial-text { max-width: 100%; }
+    }
+    </style>
+    
+    <section class="testimonial-section">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/dfd95e20cef310ef406ee67336da7b1695e2967984df6b36a8c2964cd5a81baa?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Testimonial background" class="testimonial-background">
+        <div class="testimonial-overlay">
+            <div class="testimonial-content">
+                <h2 class="testimonial-name">- Steve Doe</h2>
+                <p class="testimonial-position">Position at Company</p>
+                <blockquote class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip.
+                </blockquote>
+                <div class="testimonial-rating">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/91f84b9ae33d7946c223a8bf4ffbd1b7a0e18586e31d3c2c8fd3b4a32e1032c5?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Rating star" class="rating-star">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/082c928ed778d7f368d14bf6c2fdc285a5ff9c211b751598ede795edfcd6d8af?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Rating star" class="rating-star">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f097e89d9d6a7bdac2aca1899cd33b9857c7ed4ab6e2e7dbec39be93911f067?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Rating star" class="rating-star">
+                </div>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,113 @@
+<style>
+    .recent-posts-section { background-color: #fff; align-self: center; display: flex; margin-top: 80px; width: 100%; max-width: 1136px; flex-direction: column; align-items: center; padding: 9px 20px 1px; }
+    .section-title { color: #111; text-align: center; letter-spacing: 7.2px; text-transform: uppercase; font: 300 24px/150% Raleway, sans-serif; }
+    .section-description { color: #111; text-align: center; letter-spacing: 0.7px; margin-top: 38px; font: 300 14px/26px Roboto, sans-serif; }
+    .posts-grid { align-self: stretch; margin-top: 45px; }
+    .posts-row { gap: 20px; display: flex; }
+    .post-column { display: flex; flex-direction: column; line-height: normal; width: 33%; }
+    .post-item { display: flex; flex-grow: 1; flex-direction: column; }
+    .post-image-container { justify-content: center; background-color: #fda521; display: flex; flex-direction: column; }
+    .post-image { aspect-ratio: 1.54; object-fit: auto; object-position: center; width: 100%; }
+    .post-title { color: #111; letter-spacing: 0.9px; margin-top: 29px; font: 400 18px/32px Raleway, sans-serif; }
+    .post-date { color: #888; letter-spacing: 0.6px; margin-top: 21px; font: 300 12px/143% Roboto, sans-serif; }
+    .post-excerpt { color: #111; letter-spacing: 0.7px; margin-top: 29px; font: 300 14px/26px Roboto, sans-serif; }
+    .read-more-btn { justify-content: center; background-color: #fda521; align-self: start; margin-top: 30px; color: #fff; text-align: center; text-transform: uppercase; letter-spacing: 0.6px; padding: 17px 27px; font: 400 12px/143% Roboto, sans-serif; }
+    @media (max-width: 991px) {
+        .recent-posts-section { max-width: 100%; margin-top: 40px; }
+        .section-description { max-width: 100%; }
+        .posts-grid { max-width: 100%; margin-top: 40px; }
+        .posts-row { flex-direction: column; align-items: stretch; gap: 0; }
+        .post-column { width: 100%; }
+        .post-item { margin-top: 34px; }
+        .read-more-btn { padding: 17px 20px; }
+    }
+    </style>
+
+<link rel="stylesheet" href="nav-styling.css">
+<link rel="stylesheet" href="homepage-styling.css">
+
+
+<header>
+<nav class="navbar">
+  <div class="branding">
+      <img loading="lazy" src="logo.png" class="logo" alt="Buildezy logo" />
+      <a class="platform-name">buildezy</a>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="homepage_v2.html" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="how-it-works-section.html" class="nav-link">How to use</a></li>
+      <li class="nav-item"><a href="features-section.html" class="nav-link">Features</a></li>
+      <li class="nav-item"><a href="recent-posts-section.html" class="nav-link">Recent Posts</a></li>
+    </ul>
+  <!-- <a href="#" class="action_btn_contact">Contact Us</a> -->
+  <a href="#" class="nav-menu action_btn_app nav-item">Donwload App</a>
+  <div class="hamburger">
+    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+  </div>  
+</nav>
+
+
+<div class="dropdown_menu">
+  <li><a class="nav-item" href="homepage_v2.html">Home</a></li>
+  <li><a class="nav-item" href="how-it-works-section.html">How to use</a></li>
+  <li><a class="nav-item" href="features-section.html">Features</a></li>
+  <li><a class="nav-item" href="recent-posts-section.html">Recent Posts</a></li>
+  <li><a class="nav-item" href="contact-section.html">Contact</a></li>
+  <li><a href="#" class="action_btn_app">Download App</a></li>
+</div>
+</header>
+    
+    <section class="recent-posts-section">
+        <h2 class="section-title">Recent Posts</h2>
+        <p class="section-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua ut enim ad minim veniam quis nostrud.
+        </p>
+        <div class="posts-grid">
+            <div class="posts-row">
+                <article class="post-column">
+                    <div class="post-item">
+                        <div class="post-image-container">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/07a3a3ca97ee11872551fcef2ab15ad0c99e0366e7bcead43e104fb7316656eb?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Tutorial: How to reset your Apple ID password" class="post-image">
+                        </div>
+                        <h3 class="post-title">Tutorial: How to reset your Apple ID password</h3>
+                        <time class="post-date">Posted on 24 August, 2016</time>
+                        <p class="post-excerpt">
+                            Lorem ipsum dolor sit amet, cum partem melius
+                            nostrum te, cu pri quis dicant accusamus.
+                        </p>
+                        <a href="#" class="read-more-btn">Read more</a>
+                    </div>
+                </article>
+                <article class="post-column">
+                    <div class="post-item">
+                        <div class="post-image-container">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ba55045fa745734fc2b4c6ead670cf8583382efa002b4414c1c98dd46b2b7e0?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="A mega tech merger, Paris bans cars, and more" class="post-image">
+                        </div>
+                        <h3 class="post-title">A mega tech merger, Paris bans cars, and more</h3>
+                        <time class="post-date">Posted on 24 August, 2016</time>
+                        <p class="post-excerpt">
+                            Lorem ipsum dolor sit amet, cum partem melius
+                            nostrum te, cu pri quis dicant accusamus.
+                        </p>
+                        <a href="#" class="read-more-btn">Read more</a>
+                    </div>
+                </article>
+                <article class="post-column">
+                    <div class="post-item">
+                        <div class="post-image-container">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d8d9cf366aa56292fbef591584af036bf1fd77f6630eefdba6c0351105792000?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Google lets devs nominate their beta apps" class="post-image">
+                        </div>
+                        <h3 class="post-title">Google lets devs nominate their beta apps</h3>
+                        <time class="post-date">Posted on 24 August, 2016</time>
+                        <p class="post-excerpt">
+                            Lorem ipsum dolor sit amet, cum partem melius
+                            nostrum te, cu pri quis dicant accusamus.
+                        </p>
+                        <a href="#" class="read-more-btn">Read more</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>

@@ -1,0 +1,135 @@
+<style>
+    .features-section { background-color: #fff; display: flex; width: 100%; align-items: center; justify-content: center; padding: 80px 60px; }
+    .features-container { display: flex; width: 100%; max-width: 1087px; flex-direction: column; align-items: center; margin: 9px 0 6px; }
+    .section-title { color: #111; text-align: center; letter-spacing: 7.2px; text-transform: uppercase; font: 300 24px/150% Raleway, sans-serif; }
+    .section-description { color: #111; text-align: center; letter-spacing: 0.7px; margin-top: 38px; font: 300 14px/26px Roboto, sans-serif; }
+    .features-grid { align-self: stretch; margin-top: 18px; }
+    .features-row { gap: 20px; display: flex; }
+    .feature-column { display: flex; flex-direction: column; line-height: normal; width: 33%; }
+    .feature-list { display: flex; flex-direction: column; align-self: stretch; font-size: 18px; color: #111; font-weight: 400; text-align: right; letter-spacing: 1.8px; line-height: 110%; margin: auto 0; }
+    .feature-item { align-self: end; display: flex; width: 198px; max-width: 100%; flex-direction: column; }
+    .feature-icon { aspect-ratio: 0.98; object-fit: auto; object-position: center; width: 40px; align-self: end; }
+    .feature-title { font-family: Raleway, sans-serif; margin-top: 23px; }
+    .feature-description { letter-spacing: 0.7px; margin-top: 5px; font: 300 14px/26px Roboto, sans-serif; }
+    .features-image { aspect-ratio: 0.49; object-fit: auto; object-position: center; width: 100%; flex-grow: 1; }
+    @media (max-width: 991px) {
+        .features-section { max-width: 100%; padding: 0 20px; }
+        .features-container { max-width: 100%; }
+        .section-description { max-width: 100%; }
+        .features-grid { max-width: 100%; }
+        .features-row { flex-direction: column; align-items: stretch; gap: 0; }
+        .feature-column { width: 100%; }
+        .feature-list { flex-direction: column; align-self: center; font-size: 18px; color: #111; font-weight: 400; letter-spacing: 1.8px; line-height: 110%; margin: auto 0; text-align: center ;}
+        .feature-icon { aspect-ratio: 0.98; object-position: left; width: 40px; align-self: center; }
+        .feature-item { margin-top: 40px; }
+        .features-image { margin-top: 20px; align-self: center; scale-down; display: flex; margin-left: 1rem; width:75%;}
+    }
+    </style>
+
+<link rel="stylesheet" href="nav-styling.css">
+<link rel="stylesheet" href="homepage-styling.css">
+
+
+<header>
+<nav class="navbar">
+  <div class="branding">
+      <img loading="lazy" src="logo.png" class="logo" alt="Buildezy logo" />
+      <a class="platform-name">buildezy</a>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="homepage_v2.html" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="how-it-works-section.html" class="nav-link">How to use</a></li>
+      <li class="nav-item"><a href="features-section.html" class="nav-link">Features</a></li>
+      <li class="nav-item"><a href="recent-posts-section.html" class="nav-link">Recent Posts</a></li>
+    </ul>
+  <!-- <a href="#" class="action_btn_contact">Contact Us</a> -->
+  <a href="#" class="nav-menu action_btn_app nav-item">Donwload App</a>
+  <div class="hamburger">
+    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+  </div>  
+</nav>
+
+
+<div class="dropdown_menu">
+  <li><a class="nav-item" href="homepage_v2.html">Home</a></li>
+  <li><a class="nav-item" href="how-it-works-section.html">How to use</a></li>
+  <li><a class="nav-item" href="features-section.html">Features</a></li>
+  <li><a class="nav-item" href="recent-posts-section.html">Recent Posts</a></li>
+  <li><a class="nav-item" href="contact-section.html">Contact</a></li>
+  <li><a href="#" class="action_btn_app">Download App</a></li>
+</div>
+</header>
+    
+    <section class="features-section">
+        <div class="features-container">
+            <h2 class="section-title">Features</h2>
+            <p class="section-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua ut enim ad minim veniam quis nostrud.
+            </p>
+            <div class="features-grid">
+                <div class="features-row">
+                    <div class="feature-column">
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/62791d05f92426518d6bde8dd865e9cfcc7e30d3db61650e59a9f879f648bbda?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Unique sections icon" class="feature-icon">
+                                <h3 class="feature-title">+80 Unique sections</h3>
+                                <p class="feature-description">
+                                    Ponderum inimicus tractatos vis in doming nostrud
+                                    eu sit graece doming reprimique efficiantur pro.
+                                </p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8053f9022e89a485fff97d3382f0965599c053282b3499af0134638dd6fa5afe?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Drag and drop builder icon" class="feature-icon">
+                                <h3 class="feature-title">Drag and drop builder</h3>
+                                <p class="feature-description">
+                                    Ponderum inimicus tractatos vis in doming nostrud
+                                    eu sit graece doming reprimique efficiantur pro.
+                                </p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7bdee5ab4a2ec8b8b9b13c6969d6b21ca55b22e619860f9b16a1230cdabbdd63?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Hero layouts icon" class="feature-icon">
+                                <h3 class="feature-title">+10 Hero layouts</h3>
+                                <p class="feature-description">
+                                    Ponderum inimicus tractatos vis in doming nostrud
+                                    eu sit graece doming reprimique efficiantur pro.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-column">
+                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c070a589bfcc52dda52072a9dbbd3ab7a29cce0403b379b4792ef694992bddd3?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Features showcase" class="features-image">
+                    </div>
+                    <div class="feature-column">
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/16dfde82a9cb84fd5b141002530318e345c0a895ffcdd2ac41e6bb52bfa3b935?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Stunning design icon" class="feature-icon">
+                                <h3 class="feature-title">Stunning design</h3>
+                                <p class="feature-description">
+                                    Ponderum inimicus tractatos vis in doming nostrud
+                                    eu sit graece doming reprimique efficiantur pro.
+                                </p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6854a496481833fba444b4d8042935d04afccc0a9c2e459a7a4f365ef7086db1?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Well documented icon" class="feature-icon">
+                                <h3 class="feature-title">Well documented</h3>
+                                <p class="feature-description">
+                                    Ponderum inimicus tractatos vis in doming nostrud
+                                    eu sit graece doming reprimique efficiantur pro.
+                                </p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b08bf155b6d2dcfc6d178f534cfd287255cd87c23b7fce33b81463805e5cc794?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="24/7 Support icon" class="feature-icon">
+                                <h3 class="feature-title">24/7 Support</h3>
+                                <p class="feature-description">
+                                    Ponderum inimicus tractatos vis in doming nostrud
+                                    eu sit graece doming reprimique efficiantur pro.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>

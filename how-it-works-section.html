@@ -1,0 +1,107 @@
+<style>
+    .how-it-works-section { display: flex; flex-direction: column; }
+    .how-it-works-container { background-color: #fbfbfb; display: flex; width: 100%; align-items: center; justify-content: center; padding: 80px 60px; }
+    .how-it-works-content { display: flex; width: 100%; max-width: 1126px; flex-direction: column; align-items: center; margin: 9px 0 5px; }
+    .section-title { color: #111; text-align: center; letter-spacing: 7.2px; text-transform: uppercase; font: 300 24px/150% Raleway, sans-serif; }
+    .section-description { color: #111; text-align: center; letter-spacing: 0.7px; margin-top: 38px; font: 300 14px/26px Roboto, sans-serif; }
+    .feature-grid { align-self: stretch; margin-top: 45px; }
+    .feature-row { gap: 20px; display: flex; }
+    .feature-column { display: flex; flex-direction: column; line-height: normal; width: 33%; }
+    .feature-item { display: flex; flex-grow: 1; flex-direction: column; align-items: center; color: #111; font-weight: 300; text-align: center; }
+    .feature-icon { aspect-ratio: 1.11; object-fit: auto; object-position: center; width: 89px; border-radius: 40px; border: 1px solid #fda521; }
+    .feature-title { letter-spacing: 1px; margin-top: 23px; font: 20px/110% Raleway, sans-serif; }
+    .feature-description { letter-spacing: 0.7px; align-self: stretch; margin-top: 27px; font: 14px/26px Roboto, sans-serif; }
+    @media (max-width: 991px) {
+        .how-it-works-container { max-width: 100%; padding: 0 20px; }
+        .how-it-works-content { max-width: 100%; }
+        .section-description { max-width: 100%; }
+        .feature-grid { max-width: 100%; margin-top: 40px; }
+        .feature-row { flex-direction: column; align-items: stretch; gap: 0; }
+        .feature-column { width: 100%; }
+        .feature-item { margin-top: 40px; }
+    }
+    </style>
+    
+    <link rel="stylesheet" href="nav-styling.css">
+    <link rel="stylesheet" href="homepage-styling.css">
+
+
+<header>
+    <nav class="navbar">
+      <div class="branding">
+          <img loading="lazy" src="logo.png" class="logo" alt="Buildezy logo" />
+          <a class="platform-name">buildezy</a>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="homepage_v2.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="how-it-works-section.html" class="nav-link">How to use</a></li>
+          <li class="nav-item"><a href="features-section.html" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="recent-posts-section.html" class="nav-link">Recent Posts</a></li>
+        </ul>
+      <!-- <a href="#" class="action_btn_contact">Contact Us</a> -->
+      <a href="#" class="nav-menu action_btn_app nav-item">Donwload App</a>
+      <div class="hamburger">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </div>  
+    </nav>
+
+
+    <div class="dropdown_menu">
+      <li><a class="nav-item" href="homepage_v2.html">Home</a></li>
+      <li><a class="nav-item" href="how-it-works-section.html">How to use</a></li>
+      <li><a class="nav-item" href="features-section.html">Features</a></li>
+      <li><a class="nav-item" href="recent-posts-section.html">Recent Posts</a></li>
+      <li><a class="nav-item" href="contact-section.html">Contact</a></li>
+      <li><a href="#" class="action_btn_app">Download App</a></li>
+    </div>
+  </header>
+    
+    <section class="how-it-works-section">
+        <div class="how-it-works-container">
+            <div class="how-it-works-content">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua ut enim ad minim veniam quis nostrud.
+                </p>
+                <div class="feature-grid">
+                    <div class="feature-row">
+                        <div class="feature-column">
+                            <div class="feature-item">
+                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f29ca72245f5686aaabe4dac193ccc9c1738518856530e082696784d5112a36?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Work with Builder icon" class="feature-icon">
+                                <h3 class="feature-title">Work with Builder</h3>
+                                <p class="feature-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-column">
+                            <div class="feature-item">
+                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/78cee2de7f7dbaafa51d47b520e4be2ac5984c7091cf52f582583688b86204c1?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Edit the Items icon" class="feature-icon">
+                                <h3 class="feature-title">Edit the Items</h3>
+                                <p class="feature-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-column">
+                            <div class="feature-item">
+                                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/04c1a86323cece8679adaa90d5c1f4cd75c1ab5b6fafbc237bf70275dab2c064?apiKey=e5f065829a104cebbf1316b358ac65e7&" alt="Export a Website icon" class="feature-icon">
+                                <h3 class="feature-title">Export a Website</h3>
+                                <p class="feature-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit sed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
