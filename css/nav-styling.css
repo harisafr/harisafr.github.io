@@ -262,6 +262,8 @@ a.nav-link{
 @media (max-width: 576px) {
     .dropdown_menu{
         width: 100%;
+        background-image: url(../images/gradient.png);
+        background-size: cover;
     }
 
     .dropdown_menu.active{
