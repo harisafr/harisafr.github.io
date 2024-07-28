@@ -14,7 +14,7 @@ li{
 
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/gradient.png);
+    background-image: url(../assets/images/gradient.png);
     min-height: 70px;
     margin: 0 auto;
     display: flex;
@@ -273,7 +273,7 @@ a.nav-link{
 @media (max-width: 576px) {
     .dropdown_menu{
         width: 100%;
-        background-image: url(../images/gradient.png);
+        background-image: url(../assets/images/gradient.png);
         background-size: cover;
     }
 

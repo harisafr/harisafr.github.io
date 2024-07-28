@@ -5,13 +5,13 @@
 }
 
 .gradient-background{
-    background-image:url("../images/gradient.png");
+    background-image:url("../assets/images/gradient.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .container {
-    /* background-image:url("../images/gradient.png"); */
+    /* background-image:url("../assets/images/gradient.png"); */
     /* background-repeat: round; */
     display: flex;
     flex-direction: column;
