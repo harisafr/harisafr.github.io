@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
-.container {
+.gradient-background{
     background-image:url("../images/gradient.png");
-    background-repeat: round;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    /* background-image:url("../images/gradient.png"); */
+    /* background-repeat: round; */
     display: flex;
     flex-direction: column;
     padding: 9px 78px 68px;
