@@ -9,7 +9,7 @@
 .footer-link { font-family: Roboto, sans-serif; color: white; text-decoration: none;}
 
 .footer-link:hover {
-    text-decoration: underline;
+    color: gold;
 }
 
 .footer-bottom {
