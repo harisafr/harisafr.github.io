@@ -121,11 +121,19 @@
     font-family: Inter, sans-serif;
     justify-content: center;
     border-radius: 10px;
-    border: 1px solid rgba(246, 175, 5, 1);
-    background-color: #f5a503;
-    color: var(--sds-color-text-brand-on-brand);
+    border: none;
     padding: 12px;
-}
+    background-color: #f09819;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: none;
+    border-radius: 10px;
+    display: block;
+  }
+ 
 
 .description {
     color: #361f1f;
