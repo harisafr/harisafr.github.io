@@ -110,7 +110,7 @@
     font-family: Inter, sans-serif;
     border-radius: 10px;
     border: 1px solid rgba(217, 217, 217, 1);
-    background-color: var(--sds-color-background-default-default);
+    background-color: var(#ffffff);
     color: var(--sds-color-text-default-tertiary);
     flex: 0.28;
     padding: 12px 16px;
